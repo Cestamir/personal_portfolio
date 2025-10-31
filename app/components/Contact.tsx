@@ -26,7 +26,7 @@ const Contact = () => {
             <ContactLink icon='./globe.svg' url='https://github.com/Cestamir' text='Link2'/>
         </div>
         <div id='contactcta' className='flex flex-col items-center justify-center mt-10 mb-20'>
-            Do you want to work/tip/network ?
+            Start working ?
             <CTAButton ctaText='Send' onClickCta={handleContact}/>
         </div>
         <footer className='w-full grid grid-cols-2 max-w-100 md:max-w-150 lg:max-w-250 md:flex md:flex-row md:items-center md:justify-around gap-10 m-10'>
@@ -42,13 +42,13 @@ const Contact = () => {
             <div className='flex flex-col w-full items-center'>
                 <h3 className='headlinetext'>Legal</h3>
                 <p>
-                    Privacy policies, made by Cestmir Pavlasek 2025
+                    Privacy policies, copyright claim made by Cestmir Pavlasek 2025
                 </p>
             </div>
             <div style={{color:"#38423B"}} className='flex flex-col w-full items-center gap-2'>
                 <h3>Newsletter</h3>
                 <input className='w-full' id='newsletter' placeholder='youremail@domain.com'/>
-                <Button btnText='Confirm' btnColor='light' btnAction={handleNewsLetterSubmit} />
+                <Button btnText='Subscribe' btnColor='light' btnAction={handleNewsLetterSubmit} />
             </div>
         </footer>
     </div>
