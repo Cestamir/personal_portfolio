@@ -14,7 +14,7 @@ const Card = ({gridCardText,gridCardIcon,gridCardHeader,gridCardSize} : GridCard
       case 'large':
         return 'col-span-2 row-span-2 min-h-[200px]';
       case 'medium':
-        return 'col-span-2 row-span-1 min-h-[100px]';
+        return 'col-span-2 row-span-1 min-h-[150px]';
       case 'small':
       default:
         return 'col-span-1 row-span-1 min-h-[100px]';

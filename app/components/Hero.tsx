@@ -23,18 +23,12 @@ const Hero = () => {
     <div id='hero' className='flex flex-col w-full'>
       <div className='flex flex-col md:flex-row w-full items-center justify-center mt-10 mb-10 gap-10 md:gap-20'>
         <div id='herodisplaycard' className='flex flex-col justify-center items-center text-center md:text-left md:items-start w-xs'>
-            <div>
-                <span>☸️🈴📳</span>
-                <span> 3+ Projects Made</span>
-            </div>
-            <h1>Cestmir CZE 🇨🇿</h1>
-            <h2>▪️ 25y</h2>
-            <p>
-                ▪️ Self-taught fullstack junior software developer.
-            </p>
-            <p>
-                ▪️ Focused on modern technologies, AI and computer science knowledge.
-            </p>
+            <h1>FULLSTACK JUNIOR SOFTWARE DEVELOPER</h1>
+            <h2>▪️ 5+ Projects</h2>
+            <h2>▪️ 1 year dev experience +</h2>
+            <h2>▪️ Modern technologies + AI</h2>
+            <h2>▪️ Prague, Czech Republic 🇨🇿</h2>
+            <h2>▪️ Active open source contribution</h2>
             <div className='m-5 flex gap-2'>
                 <Button btnColor='light' btnText='Work' btnAction={onBtnClickAction}/>  
                 <Button btnColor='dark' btnText='Get in touch' btnAction={onBtnClickAction}/>
@@ -45,9 +39,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='flex flex-col md:flex-row w-full items-center justify-center'>
-        <h2 className='text-3xl m-10 md:m-3 headlinetext'>Tech stack:</h2>
-        <ul className='flex flex-col md:flex-row gap-3 items-center md:justify-evenly w-3xl'>
+      <div className='flex flex-col lg:flex-row w-full items-center justify-center'>
+        <h2 className='text-3xl m-10 md:m-3 headlinetext'>Tech stack:</h2>  
+        <ul className='flex flex-col md:flex-row gap-3 items-center md:justify-evenly w-3xl bg-none md:bg-[#2D2D2A] p-2'>
             <li className='flex gap-2'>
                 <span>Javascript</span>
                 <span><img width={32} height={32} src={`./js.png`} alt="JS"/></span>

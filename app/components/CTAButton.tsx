@@ -7,7 +7,7 @@ interface CtaButtonProps{
 
 const CTAButton = ({ctaText,onClickCta} : CtaButtonProps) => {
   return (
-    <button className='btn' style={{backgroundColor:"#3F5E5A",color:"#20FC8F"}} onClick={() => onClickCta()}>{ctaText}</button>
+    <button className='btn' onClick={() => onClickCta()}>{ctaText}</button>
   )
 }
 
