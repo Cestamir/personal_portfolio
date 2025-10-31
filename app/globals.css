@@ -1,8 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 @import "tailwindcss";
 
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+code, pre {
+  font-family: 'Fira Code', monospace;
+}
+*{
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+main{ 
+  color:#20FC8F;
+}
+
 :root {
-  --background: #ffffff;
+  --background: #38423B;
   --foreground: #171717;
+  --color1: #2D2D2A;
+  --color2: #353831;
+  --color3: #38423B;
+  --color4: #3F5E5A;
+  --color5: #20FC8F;
 }
 
 @theme inline {
@@ -19,8 +49,200 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* 
+HERO CARD
+*/
+
+#hero-card{
+  background-color: #353831;
+  opacity: 90%;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: none;
+}
+
+#herodisplaycard{
+  background-color: #353831;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* 
+GENERAL
+*/
+
+.headlinetext{
+  text-transform: uppercase;
+  font-weight: 850;
+  letter-spacing: 1px;
+}
+
+#grid-card{
+  background-color: #353831;
+  opacity: 90%;
+  border-radius: 5px;
+  width: 200px;
+  min-width: 100%;
+  overflow: hidden;
+  font-size: 13px;
+  text-align: center;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  transition: 0.3s all;
+}
+
+#grid-card:hover{
+  background-color: #3F5E5A;
+  color: #2D2D2A;
+  cursor: pointer;
+}
+
+.btn-basic{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 2px;
+  font-size: 0.9rem;
+  transition: 0.3s all;
+}
+
+.btn-basic:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* 
+EXPERIENCE
+*/
+
+#expcard{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #353831;
+  color: #20FC8F;
+  opacity: 90%;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  max-width: 250px;
+}
+
+.btn{
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #20FC8F;  
+  color: #2D2D2A;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.3s all;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+#reviewcard{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3F5E5A;
+}
+
+/* 
+CONTACT
+*/
+
+#contactlink{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  height: 40px; 
+  width: 200px;
+  background-color: #2D2D2A;
+  border-radius: 5px;
+  color: #20FC8F;
+  opacity: 90%;
+  border: none;
+  border: 1px solid #3F5E5A;
+  transition: 0.3s all;
+}
+
+#contactlink:hover{
+  cursor: pointer;
+  background-color: #353831;
+  color: #2D2D2A;
+}
+
+#contactcta{
+  min-width: 300px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #353831;
+  padding: 20px;
+  transition: 0.3s all;
+}
+
+#contactcta{
+  cursor: crosshair; 
+  transform: scale(1.05); 
+}
+
+/* 
+NAVBAR
+*/
+
+#navbar{
+  width: 80%;
+  border: none;
+  background-color: #353831;
+  opacity: 90%;
+  color: #20FC8F;
+  display: flex;
+  border-radius: 5px;
+  height: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#navitem{
+  border: none;
+  transition: all 0.3s;
+  font-weight: 800;
+}
+
+#navitem:hover{
+  transform: scale(1.05);
+}
+
+
+/* 
+FOOTER
+*/
+
+#newsletter{
+  width: 100%;
+  border: none;
+  background-color: #20FC8F;
+  padding: 5px;
+  border-radius: 5px;
 }
