@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## RUN
 
-## Getting Started
+bash
+-npm run dev
 
-First, run the development server:
+**Location:** Prague, Czech Republic  
+**Email:** cestmirpavlasek@gmail.com  
+**Phone:** +420 608 816 739  
+**GitHub:** [github.com/Cestamir](https://github.com/Cestamir)  
+**LinkedIn:** [linkedin.com/in/cestmir-pavlasek-4bb741382](https://linkedin.com/in/cestmir-pavlasek-4bb741382)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Profile
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Motivated and self-taught Full-Stack Web Developer with strong foundations in JavaScript, TypeScript, and React.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+After one year of dedicated self-study and a certified JavaScript course, I am pursuing a Junior Developer role to apply and expand my technical skills.
 
-## Learn More
+I bring persistence, adaptability, and a strong work ethic from diverse professional experience — now fully focused on building a career in tech.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technical Skills
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Frontend:** HTML5, CSS3, JavaScript (ES6+), TypeScript, React, React Router
 
-## Deploy on Vercel
+**Backend:** Node.js, Express.js, REST APIs, Server-Sent Events (SSE)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Databases:** MongoDB, MySQL
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Tools:** Git, npm, VS Code, Postman
+
+**Other:** API integration, Web scraping, Authentication (JWT), CRUD operations
+
+---
+
+## Education & Certifications
+
+### Rekvalifikační kurz – Tvorba WWW aplikací (JavaScript Advanced)
+*Accredited by MŠMT (Czech Ministry of Education)*
+
+4-month course covering JavaScript, HTML, CSS, Node.js, and MySQL fundamentals.
+
+### Gymnázium Postupická, Prague — High School Diploma
+Broad academic education (language, science, humanities).
+
+### Self-Study (1 year)
+Focused on Full-Stack JavaScript, React, and backend development through online courses, technical books, and certifications (freeCodeCamp.org).
+
+---
+
+## Projects
+
+### TheFoodGuideBook — Full-Stack Nutrition & Recipe App
+**Tech Stack:** React | TypeScript | Node.js | Express | MongoDB
+
+A full-stack app aggregating nutrition and recipe data from Wikipedia and USDA APIs. Includes an admin panel, authentication, and real-time updates via Server-Sent Events.
+
+**Highlights:**
+- Designed and implemented RESTful API with Express and MongoDB
+- Redux, CRUD
+- Created backend scraper for food and recipe data aggregation
+- Implemented real-time synchronization between backend and frontend
+
+**GitHub:** [github.com/Cestamir/TheFoodGuideBook](https://github.com/Cestamir/TheFoodGuideBook)
+
+### Insurance Web App (Course Project)
+**Tech Stack:** JavaScript | Node.js | MySQL
+
+CRUD-based insurance management system developed during a 4-month accredited JavaScript course. Practiced structured app development, SQL database design, and backend routing.
+
+---
+
+## Core Strengths
+
+- Analytical & quick learner
+- Teamwork and communication
+- Time management & reliability
+- Problem-solving mindset
+- Continuous improvement
+
+---
+
+## Work Experience
+
+### Taxi Driver — Bolt / Uber
+*2023 – Present*
+
+Efficient navigation, communication, and time management in dynamic environments.
+
+### Custom Garden Realization — Private Contractor
+*2022 – 2023*
+
+Collaborated with architects to implement garden and outdoor design projects.
+
+### Social Media Manager — Social Goals s.r.o.
+*2021 – 2022*
+
+Managed client social accounts, created content schedules, and analyzed engagement.
+
+### Hotel Portier — Hotel Imperial (5⭐)
+*2020 – 2021*
+
+Front desk and guest relations at a luxury hospitality environment.
+
+### Construction & Catering Roles — Stones / A-Z Works s.r.o.
+*2017 – 2020*
+
+Supported event logistics and on-site construction projects.
+
+---
+
+## Languages
+
+- **Czech:** Native
+- **English:** Upper-Intermediate (B2)
+- **German:** Beginner (A2)
+
+---
+
+## Career Goal
+
+To grow as a Full-Stack Software Developer, contribute to real projects, and gain hands-on experience within a professional dev team.
+
+Open to junior, trainee, or internship positions (onsite or hybrid) in Prague.
+
+---
+
+## Additional Information
+
+- Willing to relocate or work hybrid
+- Open to pursuing a Computer Science degree later
+- Actively developing new portfolio projects on GitHub
